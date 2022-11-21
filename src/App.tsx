@@ -4,11 +4,12 @@ import Home from 'pages/home';
 import Teachers from 'pages/teachers';
 import Gallery from 'pages/gallery';
 import Courses from 'pages/courses';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import DefaultLayout from 'components/DefaultLayout';
 import HomeLayout from 'components/HomeLayout';
 
 function App() {
+  const location = useLocation();
   useEffect(() => {
     const html = document.querySelector('html');
     if (html) {
@@ -16,7 +17,7 @@ function App() {
       window.scroll({ top: 0 });
       html.style.scrollBehavior = '';
     }
-  }, []);
+  }, [location.pathname]);
 
   return (
     <Routes>

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
     <div>
@@ -92,30 +94,30 @@ function Footer() {
                 <h5 className="footer-title">OUR SITEMAP</h5>
                 <ul className="sitemap-widget">
                   <li className="active">
-                    <a href="index.html">
+                    <Link to="/">
                       <i className="fa fa-angle-right" aria-hidden="true" />
                       Home
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="events.html">
+                    <Link to="/courses">
                       <i className="fa fa-angle-right" aria-hidden="true" />
-                      Events
-                    </a>
+                      Courses
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="teachers-single.html">
+                    <Link to="/teachers">
                       <i className="fa fa-angle-right" aria-hidden="true" />
-                      Teachers Details
-                    </a>
+                      Teachers
+                    </Link>
                   </li>
                   <li>
-                    <a href="contact.html">
+                    <Link to="/contact">
                       <i className="fa fa-angle-right" aria-hidden="true" />
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
