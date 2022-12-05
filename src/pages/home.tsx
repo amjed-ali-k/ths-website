@@ -147,7 +147,7 @@ function home() {
       </div>
       {/* Slider Area End */}
       {/* Services Start */}
-      <div className="rs-services rs-services-style1">
+      {/* <div className="rs-services rs-services-style1">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
@@ -196,7 +196,7 @@ function home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Services End */}
       {/* About Us Start */}
       <div id="rs-about" className="rs-about sec-spacer">
