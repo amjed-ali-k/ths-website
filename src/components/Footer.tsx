@@ -34,7 +34,7 @@ function Footer() {
                   <p className="contact-desc">
                     thsktpm@gmail.com
                     <br />
-                    www.yourname.com
+                    thskuttippuram.in
                   </p>
                 </div>
               </div>
