@@ -22,9 +22,9 @@ function HomeHeader() {
                   <div id="info-details" className="widget-text">
                     <i className="glyph-icon flaticon-email" />
                     <div className="info-text">
-                      <a href="mailto:info@domain.com">
+                      <a href="mailto:thsktpm@gmail.com">
                         <span>Mail Us</span>
-                        info@domain.com
+                        thsktpm@gmail.com
                       </a>
                     </div>
                   </div>
@@ -44,7 +44,7 @@ function HomeHeader() {
                     <div className="info-text">
                       <a href="tel:4155551234">
                         <span>Call Us</span>
-                        +1234-567-890
+                        0494 2608692
                       </a>
                     </div>
                   </div>

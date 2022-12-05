@@ -7,7 +7,7 @@ export function TopIcons() {
             <div className="rs-toolbar-left">
               <div className="welcome-message">
                 <i className="fa fa-bank" />
-                <span>Welcome to Edulearn</span>
+                <span>Welcome to THS Kuttipuram</span>
               </div>
             </div>
           </div>
@@ -16,11 +16,15 @@ export function TopIcons() {
               <div className="toolbar-share-icon">
                 <ul>
                   <li>
-                    <a href="/">
-                      <i className="fa fa-facebook" />
+                    <a
+                      href="https://www.instagram.com/thskuttippuram/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-instagram" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="/">
                       <i className="fa fa-twitter" />
                     </a>
@@ -34,10 +38,10 @@ export function TopIcons() {
                     <a href="/">
                       <i className="fa fa-linkedin" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
-              <a href="/" className="apply-btn">
+              <a href="/contact" className="apply-btn">
                 Contact us
               </a>
             </div>
