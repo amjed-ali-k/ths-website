@@ -10,10 +10,10 @@ function home() {
     <div>
       {/* Slider Area Start */}
       <div id="rs-slider" className="slider-overlay-2">
-        <Carousel showArrows={true} infiniteLoop showThumbs={false}>
+        <Carousel showArrows={true} infiniteLoop autoPlay showThumbs={false}>
           {/* Item 1 */}
           <div className="item active">
-            <img src="images/home1-slide1.jpg" alt="Slide1" />
+            <img src="images/cover-1.jpg" alt="Slide1" />
             <div className="slide-content">
               <div className="display-table">
                 <div className="display-table-cell">
@@ -23,34 +23,33 @@ function home() {
                       data-animation-in="fadeInLeft"
                       data-animation-out="animate-out"
                     >
-                      WELCOME TO EDULEARN
+                      Govt THS Kuttippuram
                     </h1>
                     <p
                       data-animation-in="fadeInUp"
                       data-animation-out="animate-out"
                       className="slider-desc"
                     >
-                      Fusce sem dolor, interdum in efficitur at, faucibus nec lorem.Sed nec molestie
-                      justo.
-                      <br className="hidden-sm-dow" /> Nunc quis sapien in arcu pharetra
-                      volutpat.Morbi nec vulputate dolor.
+                      Established 1980, under the Diratorate of technichal education, Govt of Kerala
+                      {/* <br className="hidden-sm-dow" /> Nunc quis sapien in arcu pharetra
+                      volutpat.Morbi nec vulputate dolor. */}
                     </p>
-                    <a
+                    {/* <a
                       href="#"
                       className="sl-readmore-btn mr-30"
                       data-animation-in="lightSpeedIn"
                       data-animation-out="animate-out"
                     >
                       READ MORE
-                    </a>
-                    <a
+                    </a> */}
+                    {/* <a
                       href="#"
                       className="sl-get-started-btn"
                       data-animation-in="lightSpeedIn"
                       data-animation-out="animate-out"
                     >
                       GET STARTED NOW
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -58,7 +57,7 @@ function home() {
           </div>
           {/* Item 2 */}
           <div className="item">
-            <img src="images/home1-slide2.jpg" alt="Slide2" />
+            <img src="images/cover-2.jpg" alt="Slide2" />
             <div className="slide-content">
               <div className="display-table">
                 <div className="display-table-cell">
@@ -68,19 +67,18 @@ function home() {
                       data-animation-in="fadeInUp"
                       data-animation-out="animate-out"
                     >
-                      ARE YOU READY TO APPLY?
+                      Govt THS Kuttippuram
                     </h1>
                     <p
                       data-animation-in="fadeInUp"
                       data-animation-out="animate-out"
                       className="slider-desc"
                     >
-                      Fusce sem dolor, interdum in efficitur at, faucibus nec lorem.Sed nec molestie
-                      justo.
-                      <br className="hidden-sm-dow" /> Nunc quis sapien in arcu pharetra
-                      volutpat.Morbi nec vulputate dolor.
+                      We provide professional competence and technical training
+                      {/* <br className="hidden-sm-dow" /> Nunc quis sapien in arcu pharetra
+                      volutpat.Morbi nec vulputate dolor. */}
                     </p>
-                    <a
+                    {/* <a
                       href="#"
                       className="sl-readmore-btn mr-30"
                       data-animation-in="fadeInUp"
@@ -95,7 +93,7 @@ function home() {
                       data-animation-out="animate-out"
                     >
                       GET STARTED NOW
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -103,7 +101,7 @@ function home() {
           </div>
           {/* Item 3 */}
           <div className="item">
-            <img src="images/home1-slide3.jpg" alt="Slide3" />
+            <img src="images/cover-4.jpg" alt="Slide3" />
             <div className="slide-content">
               <div className="display-table">
                 <div className="display-table-cell">
@@ -113,18 +111,16 @@ function home() {
                       data-animation-in="fadeInUp"
                       data-animation-out="animate-out"
                     >
-                      ARE YOU READY TO APPLY?
+                      Govt THS Kuttippuram
                     </h1>
                     <p
                       data-animation-in="fadeInUp"
                       data-animation-out="animate-out"
                       className="slider-desc"
                     >
-                      Fusce sem dolor, interdum in efficitur at, faucibus nec lorem.Sed nec molestie
-                      justo.
-                      <br /> Nunc quis sapien in arcu pharetra volutpat.Morbi nec vulputate dolor.
+                      100 % success in tenth standered for the last 42 years
                     </p>
-                    <a
+                    {/* <a
                       href="#"
                       className="sl-readmore-btn mr-30"
                       data-animation-in="fadeInUp"
@@ -139,7 +135,7 @@ function home() {
                       data-animation-out="animate-out"
                     >
                       GET STARTED NOW
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -206,7 +202,7 @@ function home() {
           <div className="sec-title mb-50 text-center">
             <h2>ABOUT US</h2>
             <p>
-              Fusce sem dolor, interdum in fficitur at, faucibus nec lorem. Sed nec molestie justo.
+              {/* Fusce sem dolor, interdum in fficitur at, faucibus nec lorem. Sed nec molestie justo. */}
             </p>
           </div>
           <div className="row">
@@ -223,10 +219,11 @@ function home() {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-desc">
-                <h3>WELCOME TO EDULEARN</h3>
+                <h3>Govt THS Kuttippuram</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua
+                  Our institution is located in Kuttippuram town itself, spread over an area of 7
+                  acres. Admission to the institution is only for 8th standard through an entrance
+                  exam, for a sanctioned intake of 120 nos.
                 </p>
               </div>
               <div id="accordion" className="rs-accordion-style1">
@@ -249,9 +246,14 @@ function home() {
                     data-bs-parent="#accordion"
                   >
                     <div className="card-body">
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some form, by injected humour, or
-                      randomised words which don't look even slightly believable.
+                      Government Technical High School Kuttippuram was established in 1980 under the
+                      Directorate of Technical Education, Govt. of Kerala. We provide professional
+                      competence & technical training to the students. A student who passes THS is
+                      awarded THSLC including a Trade certificate & NSQF Level 2 certificate. We
+                      also inculcate social responsibility & ethical values to students. Apart from
+                      studies in General schools, we provide specialised training in the respective
+                      trades ( Electrical, Automobile, Electronics, Turning & Fitting ) through
+                      engineering subjects & workshop practices.
                     </div>
                   </div>
                 </div>
@@ -315,317 +317,53 @@ function home() {
       <div id="rs-courses" className="rs-courses sec-color sec-spacer">
         <div className="container">
           <div className="sec-title mb-50 text-center">
-            <h2>OUR POPULAR COURSES</h2>
+            <h2>OUR COURSES</h2>
             <p>
               Fusce sem dolor, interdum in fficitur at, faucibus nec lorem. Sed nec molestie justo.
             </p>
           </div>
           <div className="row">
             <div className="col-md-12">
-              <Carousel showArrows={false} showIndicators={false} infiniteLoop showThumbs={false}>
+              <Carousel
+                showArrows={false}
+                showIndicators={false}
+                autoPlay
+                infiniteLoop
+                showThumbs={false}
+              >
                 <div className="row">
-                  <div className="col-md-4 cource-item">
-                    <div className="cource-img">
-                      <img src="images/courses-1.jpg" alt="" />
-                      <a
-                        className="image-link"
-                        href="courses-details.html"
-                        title="University Tour 2018"
-                      >
-                        <i className="fa fa-link" />
-                      </a>
-                      <span className="course-value">$450</span>
-                    </div>
-                    <div className="course-body">
-                      <a href="#" className="course-category">
-                        Science
-                      </a>
-                      <h4 className="course-title">
-                        <a href="courses-details.html">Electrical Engineering</a>
-                      </h4>
-                      <div className="review-wrap">
-                        <ul className="rating">
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star-half-empty"></li>
-                        </ul>
-                        <span className="review">25 Reviews</span>
-                      </div>
-                      <div className="course-desc">
-                        <p>
-                          Cras ultricies lacus consectetur, consectetur scelerisque arcu curabitur
-                        </p>
-                      </div>
-                    </div>
-                    <div className="course-footer">
-                      <div className="course-time">
-                        <span className="label">Course Time</span>
-                        <span className="desc">3 Year</span>
-                      </div>
-                      <div className="course-student">
-                        <span className="label">Course Student</span>
-                        <span className="desc">95</span>
-                      </div>
-                      <div className="class-duration">
-                        <span className="label">Class Duration</span>
-                        <span className="desc">8:30-4:00</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 cource-item">
-                    <div className="cource-img">
-                      <img src="images/courses-2.jpg" alt="" />
-                      <a
-                        className="image-link"
-                        href="courses-details.html"
-                        title="University Tour 2018"
-                      >
-                        <i className="fa fa-link" />
-                      </a>
-                      <span className="course-value">$450</span>
-                    </div>
-                    <div className="course-body">
-                      <a href="#" className="course-category">
-                        Science
-                      </a>
-                      <h4 className="course-title">
-                        <a href="courses-details.html">Computer Engineering</a>
-                      </h4>
-                      <div className="review-wrap">
-                        <ul className="rating">
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star-half-empty"></li>
-                        </ul>
-                        <span className="review">39 Reviews</span>
-                      </div>
-                      <div className="course-desc">
-                        <p>
-                          Cras ultricies lacus consectetur, consectetur scelerisque arcu curabitur
-                        </p>
-                      </div>
-                    </div>
-                    <div className="course-footer">
-                      <div className="course-time">
-                        <span className="label">Course Time</span>
-                        <span className="desc">4 Years</span>
-                      </div>
-                      <div className="course-student">
-                        <span className="label">Course Student</span>
-                        <span className="desc">99</span>
-                      </div>
-                      <div className="class-duration">
-                        <span className="label">Class Duration</span>
-                        <span className="desc">8:30-4:00</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 cource-item">
-                    <div className="cource-img">
-                      <img src="images/courses-3.jpg" alt="" />
-                      <a
-                        className="image-link"
-                        href="courses-details.html"
-                        title="University Tour 2018"
-                      >
-                        <i className="fa fa-link" />
-                      </a>
-                      <span className="course-value">$450</span>
-                    </div>
-                    <div className="course-body">
-                      <a href="#" className="course-category">
-                        Science
-                      </a>
-                      <h4 className="course-title">
-                        <a href="courses-details.html">Civil Engineering</a>
-                      </h4>
-                      <div className="review-wrap">
-                        <ul className="rating">
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star-half-empty"></li>
-                        </ul>
-                        <span className="review">22 Reviews</span>
-                      </div>
-                      <div className="course-desc">
-                        <p>
-                          Cras ultricies lacus consectetur, consectetur scelerisque arcu curabitur
-                        </p>
-                      </div>
-                    </div>
-                    <div className="course-footer">
-                      <div className="course-time">
-                        <span className="label">Course Time</span>
-                        <span className="desc">3.5 Years</span>
-                      </div>
-                      <div className="course-student">
-                        <span className="label">Course Student</span>
-                        <span className="desc">80</span>
-                      </div>
-                      <div className="class-duration">
-                        <span className="label">Class Duration</span>
-                        <span className="desc">8:30-4:00</span>
-                      </div>
-                    </div>
-                  </div>
+                  <CourseCard
+                    title="Electronics"
+                    description="Electronics Engineering can be defined as the branch of engineering that utilises electrical components such as semiconductors, transistors, diodes and others to design Electronics circuits, devices, integrated circuits and electronic systems."
+                    image="/images/electronics.jpg"
+                  />
+                  <CourseCard
+                    title="Electrical wiring and Mainteneance of domestic appliances"
+                    description="Electronics Engineering can be defined as the branch of engineering that utilises electrical components such as semiconductors, transistors, diodes and others to design Electronics circuits, devices, integrated circuits and electronic systems."
+                    image="/images/home-appliances.jpg"
+                  />
+                  <CourseCard
+                    title="Fitting"
+                    description="Fitting includes the knowledge about fittings like Pipe fittings, Machine fitting, and structure fittings are the main working areas, on which a fitter works."
+                    image="/images/fitter.jpg"
+                  />
                 </div>
                 <div className="row">
-                  <div className="col-md-4 cource-item">
-                    <div className="cource-img">
-                      <img src="images/courses-1.jpg" alt="" />
-                      <a
-                        className="image-link"
-                        href="courses-details.html"
-                        title="University Tour 2018"
-                      >
-                        <i className="fa fa-link" />
-                      </a>
-                      <span className="course-value">$450</span>
-                    </div>
-                    <div className="course-body">
-                      <a href="#" className="course-category">
-                        Science
-                      </a>
-                      <h4 className="course-title">
-                        <a href="courses-details.html">Electrical Engineering</a>
-                      </h4>
-                      <div className="review-wrap">
-                        <ul className="rating">
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star-half-empty"></li>
-                        </ul>
-                        <span className="review">25 Reviews</span>
-                      </div>
-                      <div className="course-desc">
-                        <p>
-                          Cras ultricies lacus consectetur, consectetur scelerisque arcu curabitur
-                        </p>
-                      </div>
-                    </div>
-                    <div className="course-footer">
-                      <div className="course-time">
-                        <span className="label">Course Time</span>
-                        <span className="desc">3 Year</span>
-                      </div>
-                      <div className="course-student">
-                        <span className="label">Course Student</span>
-                        <span className="desc">95</span>
-                      </div>
-                      <div className="class-duration">
-                        <span className="label">Class Duration</span>
-                        <span className="desc">8:30-4:00</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 cource-item">
-                    <div className="cource-img">
-                      <img src="images/courses-2.jpg" alt="" />
-                      <a
-                        className="image-link"
-                        href="courses-details.html"
-                        title="University Tour 2018"
-                      >
-                        <i className="fa fa-link" />
-                      </a>
-                      <span className="course-value">$450</span>
-                    </div>
-                    <div className="course-body">
-                      <a href="#" className="course-category">
-                        Science
-                      </a>
-                      <h4 className="course-title">
-                        <a href="courses-details.html">Computer Engineering</a>
-                      </h4>
-                      <div className="review-wrap">
-                        <ul className="rating">
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star-half-empty"></li>
-                        </ul>
-                        <span className="review">39 Reviews</span>
-                      </div>
-                      <div className="course-desc">
-                        <p>
-                          Cras ultricies lacus consectetur, consectetur scelerisque arcu curabitur
-                        </p>
-                      </div>
-                    </div>
-                    <div className="course-footer">
-                      <div className="course-time">
-                        <span className="label">Course Time</span>
-                        <span className="desc">4 Years</span>
-                      </div>
-                      <div className="course-student">
-                        <span className="label">Course Student</span>
-                        <span className="desc">99</span>
-                      </div>
-                      <div className="class-duration">
-                        <span className="label">Class Duration</span>
-                        <span className="desc">8:30-4:00</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 cource-item">
-                    <div className="cource-img">
-                      <img src="images/courses-3.jpg" alt="" />
-                      <a
-                        className="image-link"
-                        href="courses-details.html"
-                        title="University Tour 2018"
-                      >
-                        <i className="fa fa-link" />
-                      </a>
-                      <span className="course-value">$450</span>
-                    </div>
-                    <div className="course-body">
-                      <a href="#" className="course-category">
-                        Science
-                      </a>
-                      <h4 className="course-title">
-                        <a href="courses-details.html">Civil Engineering</a>
-                      </h4>
-                      <div className="review-wrap">
-                        <ul className="rating">
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star"></li>
-                          <li className="fa fa-star-half-empty"></li>
-                        </ul>
-                        <span className="review">22 Reviews</span>
-                      </div>
-                      <div className="course-desc">
-                        <p>
-                          Cras ultricies lacus consectetur, consectetur scelerisque arcu curabitur
-                        </p>
-                      </div>
-                    </div>
-                    <div className="course-footer">
-                      <div className="course-time">
-                        <span className="label">Course Time</span>
-                        <span className="desc">3.5 Years</span>
-                      </div>
-                      <div className="course-student">
-                        <span className="label">Course Student</span>
-                        <span className="desc">80</span>
-                      </div>
-                      <div className="class-duration">
-                        <span className="label">Class Duration</span>
-                        <span className="desc">8:30-4:00</span>
-                      </div>
-                    </div>
-                  </div>
+                  <CourseCard
+                    title="Turning"
+                    description="Turning is a machining process in which a cutting tool, typically a non-rotary tool bit, describes a helix toolpath by moving more or less linearly while the workpiece rotates."
+                    image="/images/turning.jpg"
+                  />
+                  <CourseCard
+                    title="Automobile"
+                    description="Automobile Engineering is the branch of engineering which deals with designing, manufacturing, mechanical mechanisms as well operations of automobiles. It is also an introduction to vehicle engineering which includes cars, motorcycles, trucks and buses etc.  "
+                    image="/images/automobile.jpg"
+                  />
+                  <CourseCard
+                    title="Welding"
+                    description="A Welding Engineer work involves managing welding projects and supervising welding teams. He or she is responsible for reviewing welding procedures, processes and documentation. "
+                    image="/images/welding.jpg"
+                  />
                 </div>
               </Carousel>
             </div>
@@ -634,7 +372,7 @@ function home() {
       </div>
       {/* Courses End */}
       {/* Counter Up Section Start*/}
-      <div className="rs-counter pt-100 pb-70 bg3">
+      {/* <div className="rs-counter pt-100 pb-70 bg3">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12">
@@ -683,10 +421,10 @@ function home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Counter Down Section End */}
       {/* Events Start */}
-      <div id="rs-events" className="rs-events sec-spacer">
+      {/* <div id="rs-events" className="rs-events sec-spacer">
         <div className="container">
           <div className="sec-title mb-50 text-center">
             <h2>OUR UPCOMING EVENTS</h2>
@@ -829,10 +567,10 @@ function home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Events End */}
       {/* Calltoaction Start */}
-      <div id="rs-calltoaction" className="rs-calltoaction sec-spacer bg4">
+      {/* <div id="rs-calltoaction" className="rs-calltoaction sec-spacer bg4">
         <div className="container">
           <div className="rs-cta-inner text-center">
             <div className="sec-title mb-50 text-center">
@@ -846,10 +584,10 @@ function home() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Calltoaction End */}
       {/* Latest News Start */}
-      <div id="rs-latest-news" className="rs-latest-news sec-spacer">
+      {/* <div id="rs-latest-news" className="rs-latest-news sec-spacer">
         <div className="container">
           <div className="sec-title mb-50 text-center">
             <h2>OUR LASTEST NEWS</h2>
@@ -958,10 +696,10 @@ function home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Latest News End */}
       {/* Testimonial Start */}
-      <div id="rs-testimonial" className="rs-testimonial bg5 sec-spacer">
+      {/* <div id="rs-testimonial" className="rs-testimonial bg5 sec-spacer">
         <div className="container">
           <div className="sec-title mb-50 text-center">
             <h2 className="white-color">WHAT PEOPLE SAYS</h2>
@@ -1036,10 +774,70 @@ function home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Testimonial End */}
     </div>
   );
 }
 
 export default home;
+
+export const CourseCard = ({
+  image,
+  type = 'Technical',
+  title,
+  description,
+  duration = '2 Year',
+  intake = '20',
+}: {
+  image: string;
+  type?: string;
+  title: string;
+  description: string;
+  duration?: string;
+  intake?: string;
+}) => {
+  return (
+    <div className="col-md-4 cource-item">
+      <div className="cource-img">
+        <img src={image} alt="" />
+        {/* <span className="course-value">$450</span> */}
+      </div>
+      <div className="course-body">
+        <a href="#" className="course-category">
+          {type}
+        </a>
+        <h4 className="course-title">
+          <a href="courses-details.html">{title}</a>
+        </h4>
+        {/* <div className="review-wrap">
+          <ul className="rating">
+            <li className="fa fa-star"></li>
+            <li className="fa fa-star"></li>
+            <li className="fa fa-star"></li>
+            <li className="fa fa-star"></li>
+            <li className="fa fa-star-half-empty"></li>
+          </ul>
+          <span className="review">25 Reviews</span>
+        </div> */}
+        <div className="course-desc">
+          <p>{description}</p>
+        </div>
+      </div>
+      <div className="course-footer">
+        <div className="course-time">
+          <span className="label">Course Time</span>
+          <span className="desc">{duration}</span>
+        </div>
+        <div className="course-student">
+          <span className="label">Course Student</span>
+          <span className="desc">{intake}</span>
+        </div>
+        {/* <div className="class-duration">
+          <span className="label">Class Duration</span>
+          <span className="desc">8:30-4:00</span>
+        </div> */}
+      </div>
+    </div>
+  );
+};
