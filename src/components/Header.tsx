@@ -20,7 +20,7 @@ export function Header() {
               <div className="col-lg-3 col-md-12">
                 <div className="logo-area">
                   <Link to="/">
-                    <img src="images/images-logo.png" alt="logo" />
+                    <img src="images/images-logo-dark.jpg" alt="logo" />
                   </Link>
                 </div>
               </div>

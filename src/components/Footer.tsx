@@ -82,12 +82,12 @@ function Footer() {
                       Teachers
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/contact">
                       <i className="fa fa-angle-right" aria-hidden="true" />
                       Contact
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className="col-lg-6 col-md-12">

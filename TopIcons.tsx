@@ -1,51 +1,42 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import Marquee from 'react-fast-marquee';
+import { useQuery, gql } from '@apollo/client';
+
+const GET_ALL_NOTIFICATIONS = gql`
+  query MyQuery {
+    allNotifications {
+      link
+      title
+      id
+    }
+  }
+`;
 export function TopIcons() {
+  const { data } = useQuery(GET_ALL_NOTIFICATIONS);
+
   return (
     <div className="rs-toolbar">
       <div className="container">
-        <div className="row">
-          <div className="col-md-6">
+        <div className="d-flex align-items-center">
+          <div className="flex-shrink-0">
             <div className="rs-toolbar-left">
               <div className="welcome-message">
                 <i className="fa fa-bank" />
-                <span>Welcome to THS Kuttipuram</span>
+                <span>Notifications :-</span>
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="rs-toolbar-right">
-              <div className="toolbar-share-icon">
-                <ul>
-                  <li>
-                    <a
-                      href="https://www.instagram.com/thskuttippuram/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="fa fa-instagram" />
-                    </a>
-                  </li>
-                  {/* <li>
-                    <a href="/">
-                      <i className="fa fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-google-plus" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-linkedin" />
-                    </a>
-                  </li> */}
-                </ul>
-              </div>
-              <a href="/contact" className="apply-btn">
-                Contact us
-              </a>
+          <div className="flex-grow-1 mx-3 border-left border-white">
+            <div className="rs-toolbar-right px-3 ">
+              <Marquee gradient={false} className="text-white">
+                {data?.allNotifications?.map((e: any) => (
+                  <a key={e.id} href={e.link} className="mx-3 text-white" style={{}}>
+                    {e.title}
+                  </a>
+                ))}
+              </Marquee>
             </div>
-          </div>{' '}
+          </div>
         </div>
       </div>
     </div>
