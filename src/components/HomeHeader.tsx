@@ -33,7 +33,7 @@ function HomeHeader() {
               <div className="col-md-4 col-sm-12">
                 <div className="logo-area text-center">
                   <Link to="/">
-                    <img src="images/images-logo.png" alt="logo" />
+                    <img src="images/images-logo.jpg" alt="logo" />
                   </Link>
                 </div>
               </div>

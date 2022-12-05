@@ -14,21 +14,17 @@ function Footer() {
                   <i className="fa fa-map-marker" />
                   <h4 className="contact-title">Address</h4>
                   <p className="contact-desc">
-                    503 Old Buffalo Street
+                    THS Kuttippuram, Tirur Road,
                     <br />
-                    Northwest #205, New York-3087
+                    Kuttipuram PO, Malappuram Dist - 679571
                   </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="contact-inner">
                   <i className="fa fa-phone" />
-                  <h4 className="contact-title">Phone Number</h4>
-                  <p className="contact-desc">
-                    +3453-909-6565
-                    <br />
-                    +2390-875-2235
-                  </p>
+                  <h4 className="contact-title">Contact Number</h4>
+                  <p className="contact-desc">0494 2608692</p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -36,7 +32,7 @@ function Footer() {
                   <i className="fa fa-map-marker" />
                   <h4 className="contact-title">Email Address</h4>
                   <p className="contact-desc">
-                    infoname@gmail.com
+                    thsktpm@gmail.com
                     <br />
                     www.yourname.com
                   </p>
@@ -51,45 +47,18 @@ function Footer() {
             <div className="row">
               <div className="col-lg-3 col-md-12">
                 <div className="about-widget">
-                  <img src="images/logo-footer.png" alt="Footer Logo" />
+                  <img src="images/images-logo-dark.jpg" alt="Footer Logo" />
                   <p>
-                    We create Premium Html Themes for more than three years. Our team goal is to
-                    reunite the elegance of unique.
+                    We provide professional competence & technical training to the students. A
+                    student who passes THS is awarded THSLC including a Trade certificate & NSQF
+                    Level 2 certificate.
                   </p>
                   <p className="margin-remove">
-                    We create Unique and Easy To Use Flexible Html Themes.
+                    We also inculcate social responsibility & ethical values to students.
                   </p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-12">
-                <h5 className="footer-title">RECENT POSTS</h5>
-                <div className="recent-post-widget">
-                  <div className="post-item">
-                    <div className="post-date">
-                      <span>28</span>
-                      <span>June</span>
-                    </div>
-                    <div className="post-desc">
-                      <h5 className="post-title">
-                        <a href="/">While the lovely valley team work</a>
-                      </h5>
-                      <span className="post-category">Keyword Analysis</span>
-                    </div>
-                  </div>
-                  <div className="post-item">
-                    <div className="post-date">
-                      <span>28</span>
-                      <span>June</span>
-                    </div>
-                    <div className="post-desc">
-                      <h5 className="post-title">
-                        <a href="/">I must explain to you how all this idea</a>
-                      </h5>
-                      <span className="post-category">Spoken English</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               <div className="col-lg-3 col-md-12">
                 <h5 className="footer-title">OUR SITEMAP</h5>
                 <ul className="sitemap-widget">
@@ -121,39 +90,14 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 col-md-12">
-                <h3 className="footer-title">FLICKR FEED</h3>
-                <ul className="flickr-feed">
-                  <li>
-                    <a href="/">
-                      <img src="images/flickr/1.jpg" alt="Project" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <img src="images/flickr/2.jpg" alt="Project" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <img src="images/flickr/3.jpg" alt="Project" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <img src="images/flickr/4.jpg" alt="Project" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <img src="images/flickr/5.jpg" alt="Project" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <img src="images/flickr/6.jpg" alt="Project" />
-                    </a>
-                  </li>
+              <div className="col-lg-6 col-md-12">
+                <h3 className="footer-title">INSTAGRAM FEED</h3>
+                <ul className="flickr-feed" style={{ height: '400px' }}>
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: `<iframe src="https://embedsocial.com/api/pro_hashtag/fa94dae9f618f5c95228a69edb2230367ab68b6a" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0"></iframe>`,
+                    }}
+                  />
                 </ul>
               </div>
             </div>

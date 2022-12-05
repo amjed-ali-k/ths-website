@@ -2,8 +2,10 @@
 /* eslint-disable jsx-a11y/role-supports-aria-props */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
+import { CourseCard } from 'components/Courses';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import video from './../assets/video.mp4';
 
 function home() {
   return (
@@ -207,14 +209,12 @@ function home() {
           </div>
           <div className="row">
             <div className="col-lg-6 col-md-12">
-              <div className="about-img rs-animation-hover">
-                <img src="images/about-about.jpg" alt="img02" />
-                <a
-                  className="popup-youtube rs-animation-fade"
-                  href="https://www.youtube.com/watch?v=tzMpWiGL8D8"
-                  title="Video Icon"
-                ></a>
-                <div className="overly-border" />
+              <div className=" ">
+                {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+                <video width={'100%'} controls>
+                  <source width={'100%'} src={video} type="video/mp4" />{' '}
+                </video>
+                {/* <div className="overly-border" /> */}
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -318,9 +318,7 @@ function home() {
         <div className="container">
           <div className="sec-title mb-50 text-center">
             <h2>OUR COURSES</h2>
-            <p>
-              Fusce sem dolor, interdum in fficitur at, faucibus nec lorem. Sed nec molestie justo.
-            </p>
+            <p>Courses presently available in our instituiton.</p>
           </div>
           <div className="row">
             <div className="col-md-12">
@@ -333,16 +331,19 @@ function home() {
               >
                 <div className="row">
                   <CourseCard
+                    className="col-md-4 "
                     title="Electronics"
                     description="Electronics Engineering can be defined as the branch of engineering that utilises electrical components such as semiconductors, transistors, diodes and others to design Electronics circuits, devices, integrated circuits and electronic systems."
                     image="/images/electronics.jpg"
                   />
                   <CourseCard
+                    className="col-md-4 "
                     title="Electrical wiring and Mainteneance of domestic appliances"
                     description="Electronics Engineering can be defined as the branch of engineering that utilises electrical components such as semiconductors, transistors, diodes and others to design Electronics circuits, devices, integrated circuits and electronic systems."
                     image="/images/home-appliances.jpg"
                   />
                   <CourseCard
+                    className="col-md-4 "
                     title="Fitting"
                     description="Fitting includes the knowledge about fittings like Pipe fittings, Machine fitting, and structure fittings are the main working areas, on which a fitter works."
                     image="/images/fitter.jpg"
@@ -350,16 +351,19 @@ function home() {
                 </div>
                 <div className="row">
                   <CourseCard
+                    className="col-md-4 "
                     title="Turning"
                     description="Turning is a machining process in which a cutting tool, typically a non-rotary tool bit, describes a helix toolpath by moving more or less linearly while the workpiece rotates."
                     image="/images/turning.jpg"
                   />
                   <CourseCard
+                    className="col-md-4 "
                     title="Automobile"
                     description="Automobile Engineering is the branch of engineering which deals with designing, manufacturing, mechanical mechanisms as well operations of automobiles. It is also an introduction to vehicle engineering which includes cars, motorcycles, trucks and buses etc.  "
                     image="/images/automobile.jpg"
                   />
                   <CourseCard
+                    className="col-md-4 "
                     title="Welding"
                     description="A Welding Engineer work involves managing welding projects and supervising welding teams. He or she is responsible for reviewing welding procedures, processes and documentation. "
                     image="/images/welding.jpg"
@@ -781,63 +785,3 @@ function home() {
 }
 
 export default home;
-
-export const CourseCard = ({
-  image,
-  type = 'Technical',
-  title,
-  description,
-  duration = '2 Year',
-  intake = '20',
-}: {
-  image: string;
-  type?: string;
-  title: string;
-  description: string;
-  duration?: string;
-  intake?: string;
-}) => {
-  return (
-    <div className="col-md-4 cource-item">
-      <div className="cource-img">
-        <img src={image} alt="" />
-        {/* <span className="course-value">$450</span> */}
-      </div>
-      <div className="course-body">
-        <a href="#" className="course-category">
-          {type}
-        </a>
-        <h4 className="course-title">
-          <a href="courses-details.html">{title}</a>
-        </h4>
-        {/* <div className="review-wrap">
-          <ul className="rating">
-            <li className="fa fa-star"></li>
-            <li className="fa fa-star"></li>
-            <li className="fa fa-star"></li>
-            <li className="fa fa-star"></li>
-            <li className="fa fa-star-half-empty"></li>
-          </ul>
-          <span className="review">25 Reviews</span>
-        </div> */}
-        <div className="course-desc">
-          <p>{description}</p>
-        </div>
-      </div>
-      <div className="course-footer">
-        <div className="course-time">
-          <span className="label">Course Time</span>
-          <span className="desc">{duration}</span>
-        </div>
-        <div className="course-student">
-          <span className="label">Course Student</span>
-          <span className="desc">{intake}</span>
-        </div>
-        {/* <div className="class-duration">
-          <span className="label">Class Duration</span>
-          <span className="desc">8:30-4:00</span>
-        </div> */}
-      </div>
-    </div>
-  );
-};
