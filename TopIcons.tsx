@@ -27,8 +27,8 @@ export function TopIcons() {
             </div>
           </div>
           <div className="flex-grow-1 mx-3 border-left border-white">
-            <div className="rs-toolbar-right px-3 ">
-              <Marquee gradient={false} className="text-white">
+            <div className="rs-toolbar-right px-3 cursor-pointer">
+              <Marquee gradient={false} className="text-white cursor-pointer">
                 {data?.allNotifications?.map((e: any) => (
                   <a
                     key={e.id}
@@ -36,7 +36,9 @@ export function TopIcons() {
                     target="_blank"
                     href={e.link}
                     className="mx-3  text-white"
-                    style={{}}
+                    style={{
+                      cursor: 'pointer',
+                    }}
                   >
                     {e.title}
                   </a>
