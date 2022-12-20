@@ -258,7 +258,7 @@ function home() {
                     </div>
                   </div>
                 </div>
-                <div className="card">
+                {/* <div className="card">
                   <div className="card-header" id="headingTwo">
                     <h3
                       className="acdn-title collapsed"
@@ -282,8 +282,8 @@ function home() {
                       randomised words which don't look even slightly believable.
                     </div>
                   </div>
-                </div>
-                <div className="card">
+                </div> */}
+                {/* <div className="card">
                   <div className="card-header mb-0" id="headingThree">
                     <h3
                       className="acdn-title collapsed"
@@ -307,7 +307,7 @@ function home() {
                       randomised words which don't look even slightly believable.
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
