@@ -30,7 +30,14 @@ export function TopIcons() {
             <div className="rs-toolbar-right px-3 ">
               <Marquee gradient={false} className="text-white">
                 {data?.allNotifications?.map((e: any) => (
-                  <a key={e.id} href={e.link} className="mx-3 text-white" style={{}}>
+                  <a
+                    key={e.id}
+                    rel="noreferrer"
+                    target="_blank"
+                    href={e.link}
+                    className="mx-3  text-white"
+                    style={{}}
+                  >
                     {e.title}
                   </a>
                 ))}

@@ -32,7 +32,8 @@ function home() {
                       data-animation-out="animate-out"
                       className="slider-desc"
                     >
-                      Established 1980, under the Diratorate of technichal education, Govt of Kerala
+                      Established in 1980, under the Directorate of technical education, Govt of
+                      Kerala
                       {/* <br className="hidden-sm-dow" /> Nunc quis sapien in arcu pharetra
                       volutpat.Morbi nec vulputate dolor. */}
                     </p>
@@ -120,7 +121,7 @@ function home() {
                       data-animation-out="animate-out"
                       className="slider-desc"
                     >
-                      100 % success in tenth standered for the last 42 years
+                      100 % success in X<sup>th</sup> standard for the last 42 years
                     </p>
                     {/* <a
                       href="#"

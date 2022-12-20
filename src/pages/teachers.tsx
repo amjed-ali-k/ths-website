@@ -4,7 +4,7 @@ import { useQuery, gql } from '@apollo/client';
 
 const GET_ALL_STAFGS = gql`
   query MyQuery {
-    allStaffs {
+    allStaffs(first: 100) {
       name
       photo {
         url
